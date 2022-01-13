@@ -10,3 +10,6 @@ Untuk mencegah penyerangan pada saat transaksi. Dapa membuat sebuah modifier noR
 
 ## verify.sol
 Untuk mendapatkan hash value yang nantinya digunakan untuk mendapatkan signature value, harus menjalankan fungsi getMessageHash() dan memasukkan address, amount, string, dan uint. Setelah itu value berupa hash akan didaptkan, yang kemudian value ini digunakan untuk mendaptkan signature value pada fungsi getEthSignedMessageHash(). Untuk melakukan verify masih terdapat error
+
+## ERC20.sol
+Untuk pengerjaan yang ini yang masih bisa dilakukan adalah melihat balance, untuk melakukan transfer masih ada error
